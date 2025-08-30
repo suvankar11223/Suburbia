@@ -59,32 +59,15 @@ A modern, interactive e-commerce platform for custom skateboard design and purch
    npm install
    ```
 
-3. **Environment Setup**
-   Create a `.env.local` file with the following variables:
-   ```env
-   # Database
-   MONGODB_URI=mongodb://localhost:27017/suburbia
 
-   # Authentication
-   NEXTAUTH_SECRET=your-secret-key
-   NEXTAUTH_URL=http://localhost:3000
-
-   # Razorpay
-   RAZORPAY_KEY_ID=your-razorpay-key-id
-   NEXT_PUBLIC_RAZORPAY_KEY_ID=your-razorpay-key-id
-   RAZORPAY_KEY_SECRET=your-razorpay-key-secret
-
-   # Prismic CMS
-   PRISMIC_ENDPOINT=your-prismic-endpoint
-   PRISMIC_ACCESS_TOKEN=your-prismic-access-token
    ```
 
-4. **Run the development server**
+3. **Run the development server**
    ```bash
    npm run dev
    ```
 
-5. **Open your browser**
+4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
